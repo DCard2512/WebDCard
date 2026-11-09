@@ -1,0 +1,26 @@
+button{
+    text-align: center;
+    width: 330px;
+    font-weight: bold;
+    outline-style: double;
+    outline-width: 3px;
+    background-color: #959292;
+    color:black;
+}
+
+fieldset{
+    width: 300px;
+}
+
+[data-role="page"]{
+    padding-left: 50px;
+}
+
+#copyTextMsg{
+    width: 330px;
+    background-color: yellow;
+}
+
+#typingTest{
+    width: 300px;
+}

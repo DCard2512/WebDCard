@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Runner Aide</title>
+
+    <script type='text/javascript' src='js/runnerCalc.js'></script>
+
+</head>
+
+<body>
+    <div data-role="page">
+        <div data-role="header">
+            <h1>Runner Aide</h1>
+            <hr />
+            <h3>
+                This calculator helps show your times of
+                the total distance by each mile.
+            </h3>
+        </div>
+
+
+        <div data-role="content">
+            <fieldset>
+                <legend>Calculate Pace Chart</legend>
+                <label>Distance</label><br>
+                <input id="mi" name="mi">
+                <label>mi</label><br>
+                <label>Target Pace</label><br>
+                <input id="time" name="time">
+                <label>min/mi (mm:ss)</label><br>
+                <button onclick="calc()">Calculate</button>
+            </fieldset>
+
+            <table>
+                <tr><b>Mile Time</b></tr>
+                <div id="List"></div>
+            </table>
+        </div>
+
+
+        <div data-role="footer"><small><i>By Pelon</i></small></div>
+    </div>
+
+</body>
+
+</html>

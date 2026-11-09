@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Wages App</title>
+    <!-- Include jQuery Mobile, jQuery stylesheets via CDN -->
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+    <!-- ONLY JavaScript file -->
+    <script type='text/javascript' src='js/mpg.js'></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div data-role="page">
+        <div data-role="header"><h1>Calculate MPG</h1></div>
+
+        <div data-role="content">
+            <label for="milesdriven">Miles Driven: </label>
+            <input type="number" name="milesdriven" id="milesdriven" min="0" max="1000" placeholder="in Miles">
+
+            <label for="ngallons">Gallons of Gas Used: </label>
+            <input type="number" name="ngallons" id="ngallons" min="0" max="100" placeholder="in Miles">
+
+            <label for="milespergallon">Miles per Gallon: </label>
+            <input type="text" name="milespergallon" id="milespergallon" disabled>
+
+            <button onclick="display();">Compute MPG</button>
+
+        </div>
+        
+        <div date-role="footer"><small><i>Solutions by Bobo</i></small></div>
+    </div>
+</body>
+
+</html>

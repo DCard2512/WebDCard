@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type='text/javascript' src='js/convInToCm.js'></script>
+    <link rel="stylesheet" href="css/conver.css">
+    <title>Problem 2</title>
+</head>
+
+<body>
+    <div class="page">
+        <div class="header">
+            <h1>Conversion Inches/Centimeters</h1>
+        </div>
+        <div class="content">
+            <div class="input">
+                <input type="number" name="inch" id="conver" min="0" step="10" value="0">
+                <label for="convName" id="convName">Inches/Centimeters</label>
+            </div>
+        
+            <div class="conversion">
+                <p><strong>Convert to:</strong></p>
+                <!--Inches to Centimeters Conversion-->
+                <input type="radio" name="conv" id="conv" value="cCon">
+                <label for="iConv">Inches</label>
+                <!--Centimeters to Inches Conversion-->
+                <input type="radio" name="conv" id="conv" value="iCon">
+                <label for="cConv">Centimeters</label>
+            </div>
+ 
+            <br />
+            <div class="button"><button onclick="convert();">Convert</button></div>
+            <br />
+            <table>
+                <tr>
+                    <td id='conversions'></td>
+                </tr>
+            </table>
+        </div>
+        <div class="footer"><small><i>By Pelon</i></small></div>
+    </div>
+</body>
+
+</html>

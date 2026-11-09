@@ -1,0 +1,9 @@
+table tr th{
+    padding-right: 40px;
+    text-align: left;
+}
+
+table tr td{
+    padding-left: 35;
+    text-align: left;
+}

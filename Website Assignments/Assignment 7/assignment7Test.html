@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <script type='text/javascript' src='js/typing.js'></script>
+    <link rel="stylesheet" href="css/textTutor.css">
+</head>
+<body>
+    <div data-role="page">
+        <div data-role="header">
+            <h1>Texting Tutor</h1>
+        </div>
+
+        <div data-role="content">
+            <fieldset id="fs">
+                <legend>Specify your texting level:</legend>
+                <input type="radio" name="check" id="beginner" checked="checked">
+                <label>Beginner &nbsp &nbsp</label>
+                <input type="radio" name="check" id="advanced">
+                <label>Advanced</label>
+            </fieldset>
+            <br/>
+
+            <div id="button1"><button onclick="start()"> Click to Start Test </button></div>
+
+            <div id="txtMsg">
+                <h4>&nbsp The text you will type will appear here: <br/></h4>
+                <div id="copyTextMsg"></div>
+            </div>
+
+            <div id="typing">
+                <div id="inputTxt">
+                    <h4> &nbsp Entere Your Text Here: <br> </h4>
+                </div>
+                <div id="input">
+                    <input type="text" id="typingTest" name="typingTest">
+                </div>
+                <div id="btnInput">
+                    <button onclick="endTime();"> Click This Button When You Are Done Typing</button>
+                </div>
+            </div>
+            <div id="image"></div>
+            <div id="outputText"></div>
+        </div>
+
+        <div data-role="footer">
+            <small><i>by Diego Cardenas</i></small>
+        </div>
+    </div>
+    
+</body>
+</html>

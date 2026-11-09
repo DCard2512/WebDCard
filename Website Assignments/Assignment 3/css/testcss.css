@@ -1,0 +1,25 @@
+
+
+body{
+    background-color: grey;
+    padding-left: 0%;
+    border: 0px;
+
+}
+
+.row1{
+    background-color: rgb(230, 61, 61);
+    display: flex;
+
+}
+
+#middleTitle{
+    font-family: "Brush Script MT";
+    text-align: center;
+}
+
+.row4{
+    font-family: "Lucida Handwriting", cursive;
+    text-align: center;
+}
+
