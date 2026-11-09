@@ -1,0 +1,28 @@
+h1{
+    margin: 30px;
+}
+
+h1.greeting{
+    color: #4889c5;
+    font-size: 48px;
+    font-family: Helvetica;
+}
+
+h1.condolences{
+    color: #1717ce;
+    font-size: 52px;
+    font-family: cursive;
+}
+
+.birthday{
+    color: #deab2f;
+    font-size: 48px;
+    font-family: monospace;
+}
+
+#fun{
+    padding-left: 15px;
+    padding-bottom: 5px;
+    border: 5px #DE325E dotted;
+}
+

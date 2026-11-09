@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EX 3</title>
+    <!-- Include jQuery Mobile, jQuery stylesheets via CDN -->
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+    <!-- ONLY JavaScript file -->
+    <script type='text/javascript' src='js/ex3.js'></script>
+</head>
+<body>
+    <div data-role="page">
+        <div data-role="header">
+            <h1>Green Ring Bull's Eye</h1>
+        </div>
+
+        <div data-role="content">
+            <label for="nGreen"> Green Amount </label>
+            <input type="range" name="nGreen" id="nGreen" min="25" max="255" placeholder="25">
+
+            <button onclick="drawIt()">
+                Make Bull's Eye
+            </button>
+
+            <canvas id="canvasElement" height="100" width="100"></canvas>
+        </div>
+    </div>
+</body>
+</html>
