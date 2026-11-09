@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Greeting by Name</title>
+  <!-- CDNs include Mobile CSS and Core JavaScript files -->
+  <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+  <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+  <script type="text/javascript" src="ajax.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+  <div data-role="page">
+    <div data-role="header">
+      <h1>Message with Name Input</h1>
+    </div>
+
+    <div data-role="content">
+      <!--TEXTFIELD FOR NAME INPUT -->
+      Enter your name: <input type="text" id="myname"><br>
+
+      <!--GREET BUTTON -->
+      <button onclick="submitName();">Tell me something!</button><br>
+
+      <!-- DISPLAYS MESSAGE -->
+      <div id="message"></div>
+    </div>
+  </div>
+
+</body>
+
+</html>
