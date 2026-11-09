@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Files Test</title>
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <script type='text/javascript' src='js/files.js'></script>
+</head>
+<body onload="initialize()">
+    <div data-role="page">
+        <div data-role="header">
+            <h1>Reading from a file</h1>
+        </div>
+
+        <div data-role="content">
+            <!-- Input File -->
+            <input type="file" id="myFile"> 
+
+            <button onclick="getWords();"> List 'T' Words </button>
+
+            <p id="myDisplay" style="overflow:scroll; height:400px; background:#E1F5A8"></p>
+        </div>
+    </div>  
+</body>
+</html>
